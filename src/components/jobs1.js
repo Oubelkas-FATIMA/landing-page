@@ -25,7 +25,7 @@ function Jobs() {
                             <h2 className='text-[#E8B537] text-1xl  pt-4 '>{job.second_text}</h2>
                         </div>
 
-                        <div className='mt-4  font-poppins  text-[14px] md:text-[20px] max-w-1xl leading-tight '>
+                        <div className='mt-4  font-poppins  text-[14px] md:text-[20px] max-w-1xl text-justify'>
                             
                                 {job.description}
                         </div>

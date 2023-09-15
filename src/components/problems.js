@@ -18,17 +18,17 @@ function problems() {
                       <img className = 'w-96 h-80 py-10 rounded-r-3xl shadow-2xl' src={prob} alt="/" />
 
                   </div>
-                  <h1 className='text-[#046508] font-bold   text-3xl text-center p-6'> Solutions</h1>
-                  <p className='font-poppins pb-6 px-20'> {solutions.sol} </p>
+                  <h1 className='text-[#046508] font-bold   text-3xl text-center p-6'>Our Solution</h1>
+                  <p className='font-poppins pb-6 px-20 text-justify'> {solutions.sol} </p>
                       
             </div>
 
 
             <div>
 
-            <h1 className='text-[#046508] font-bold   text-3xl text-center p-6'> Problems related to aeroponic</h1>
+            <h1 className='text-[#046508] font-bold   text-3xl text-center p-6'> The problem</h1>
                  
-                <p className=' font-poppins pb-6 px-20'> {problem.problems} </p>
+                <p className=' font-poppins pb-6 px-20 text-justify'> {problem.problems} </p>
                 <div className='flex justify-center'>
                 
                       <img className = 'w-96 h-80 py-10 shadow-2xl' src={solution} alt="/" />

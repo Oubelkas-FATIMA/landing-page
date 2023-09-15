@@ -120,10 +120,21 @@ export const navLinks = [
 
 
 export const members = [
+ 
+
   {
     
     content:
-      "coding Maestra .",
+      "Data Wizard ",
+    name: "Julien Awonga",
+    job: "Data expert",
+    img: julien,
+  },
+
+  {
+  
+    content:
+      "coding Maestra ",
     name: "Oubelkas Fatima",
     job: "developer",
     img: fatima,
@@ -132,17 +143,8 @@ export const members = [
   {
     
     content:
-      "Data Wizard .",
-    name: "Julien Awonga",
-    job: "Data expert",
-    img: julien,
-  },
-
-  {
-    
-    content:
-      "Circuit Sorcerer.",
-    name: "Zakaria louizy",
+      "Circuit Sorcerer",
+    name: "Zakaria Louizy",
     job: "Embedded Systems",
     img: zakaria,
   },
@@ -150,8 +152,8 @@ export const members = [
   {
     
     content:
-      "Creative Mind.",
-    name: "Samia benhadj",
+      "Creative Mind",
+    name: "Samia Benhadj",
     job: "Marketer",
     img: samia,
   },
@@ -159,7 +161,7 @@ export const members = [
   {
     
     content:
-      "Tech Enthusiast.",
+      "Tech Enthusiast",
     name: " Amine Rachikh",
     job: "Embedded Systems",
     img: amine,

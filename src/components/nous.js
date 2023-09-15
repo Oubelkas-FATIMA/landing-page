@@ -27,8 +27,8 @@ const nous = () => {
                 <br/>
                 
 
-                <h1> {member.name} </h1>
-                <h3> {member.job} </h3>
+                <h1 className="font-bold"> {member.name} </h1>
+                <h3 className="text-[#E8B537] font-bold"> {member.job} </h3>
                 <p> {member.content} </p>
                     
               

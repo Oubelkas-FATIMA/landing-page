@@ -12,8 +12,12 @@ import { motion } from "framer-motion";
 import { home } from "../constants";
 
 
+import heroBackground from '../assets/backHero.jpg'
 
-import Robot from '../assets/vidBackground.mp4'
+
+
+// import Robot from '../assets/vidBackground.mp4'
+<img className = '' src={heroBackground} alt="/" />
 
 const Hero = () => {
 
@@ -23,11 +27,12 @@ const Hero = () => {
 
     return (
         <section id="home" className=" w-full h-auto mx-auto bg-[#1F571E]">
-          <video src={Robot} autoPlay loop className="w-full h-screen object-cover opacity-40"/>
+          
+          <img className = 'w-full h-screen object-cover opacity-20' src={heroBackground} alt="/" />
 
 
           <nav className="w-full flex py-6 justify-between items-center navbar absolute top-0 xl:max-w-[1280px] sm:px-16 px-6">
-       <img src={LogoWhite} alt="hoobank" className="w-[81px] h-[81px]" />
+       <img src={LogoWhite} alt="hoobank" className="w-[81px] h-[81px] " />
 
        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
