@@ -1,4 +1,4 @@
-import  julien  from "../assets/Julien.jpeg" ;
+import  julien  from "../assets/Julien.png" ;
 import fatima from "../assets/fatimarm.png";
 import amine from "../assets/aminerm.png";
 import zakaria from "../assets/zakariarm.png";
