@@ -12,7 +12,7 @@ function features() {
         <h1 className='text-[#015109] text-3xl font-bold pt-10'> Features </h1>
         
     </div>
-    <p className='pb-6 font-poppins pt-5 text-[#E8B537]'> Explore BIONIX's exceptional capabilities !</p>
+    <p className='pb-6 font-poppins pt-5 text-[#E8B537] font-bold'> Explore BIONIX's exceptional capabilities !</p>
              
         <div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 md:gap-10 sm:gap-10  px-20 ">     
                     {feature.map((feat) => (

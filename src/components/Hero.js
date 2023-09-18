@@ -63,7 +63,7 @@ const Hero = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-[#E8B537]" : "text-dimWhite"
+                  active === nav.title ? "text-[#E8B537] " : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
@@ -80,7 +80,7 @@ const Hero = () => {
                 <div className="grid lg:grid-cols-2 lg:overflow-visible">
                     <div className="lg:w-[130%]  text-center lg:text-left">
                         <h1 className="text-[3rem] md:text-[4rem] leading-tight font-poppins text-white">{home.first_text}</h1>
-                        <h3 className="mt-4 text-[1.5rem] font-poppins  text-[#E8B537]">{home.second_text}</h3>
+                        <h3 className="mt-4 text-[1.5rem] font-poppins  text-[#E8B537] font-bold">{home.second_text}</h3>
                         
                         <button className='text-white  rounded-3xl  w-[13vw] my-20 p-3  border-2 border-white'>
                          learn more

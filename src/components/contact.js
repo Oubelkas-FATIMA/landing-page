@@ -7,7 +7,7 @@ function contact() {
 ``````<div className='flex flex-col items-center '>
         <div className='flex flex-col items-center'>
             <h1 className='text-[#015109] text-3xl font-bold '> Contact us</h1>
-            <p className='font-poppins p-3 text-[#E8B537]'>Any question or remarks? Just write us a message!</p>
+            <p className='font-poppins p-3 text-[#E8B537] font-bold'>Any question or remarks? Just write us a message!</p>
         </div>
         
         <div className='w-full flex flex-col items-center bg-white mb-16 pt-16'>

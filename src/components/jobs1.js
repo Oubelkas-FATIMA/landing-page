@@ -1,6 +1,6 @@
 import React from 'react'
 
-import robot3d from '../assets/robot3d.jpg'
+import robot3d from '../assets/3drobot.mp4'
 
 
 
@@ -22,7 +22,7 @@ function Jobs() {
                             <h2 className='text-[#015109] text-3xl font-bold  '>{job.title}</h2>
                         </div>
                         <div>
-                            <h2 className='text-[#E8B537] text-1xl  pt-4 '>{job.second_text}</h2>
+                            <h2 className='text-[#E8B537] text-1xl  pt-4 font-bold'>{job.second_text}</h2>
                         </div>
 
                         <div className='mt-4  font-poppins  text-[14px] md:text-[20px] max-w-1xl text-justify'>
@@ -39,7 +39,9 @@ function Jobs() {
                     <div className="hidden lg:flex">
                         <div className='max-w-[800px] h-full  m-auto py-16  relative group pl-20'>
                             
-                        <img className = 'w-96 h-100 py-10 shadow-md' src={robot3d} alt="/" />
+                        <video autoPlay muted loop>
+        <source src={robot3d} />
+      </video>
                         </div>
                     </div>
                 </div>
