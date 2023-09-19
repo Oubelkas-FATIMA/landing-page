@@ -40,7 +40,7 @@ function Jobs() {
                         <div className='max-w-[800px] h-full  m-auto py-16  relative group pl-20'>
                             
                         <video autoPlay muted loop>
-        <source src={robot3d} />
+        <source src={robot3d} type="video/mp4"/>
       </video>
                         </div>
                     </div>
