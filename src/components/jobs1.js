@@ -1,6 +1,6 @@
 import React from 'react'
 
-import robot3d from '../assets/3drobot.mp4'
+import robot3d from '../assets/3drobot.webm'
 
 
 
@@ -40,7 +40,7 @@ function Jobs() {
                         <div className='max-w-[800px] h-full  m-auto py-16  relative group pl-20'>
                             
                         <video autoPlay muted loop>
-        <source src={robot3d} type="video/mp4"/>
+        <source src={robot3d} type="video/webm"/>
       </video>
                         </div>
                     </div>
