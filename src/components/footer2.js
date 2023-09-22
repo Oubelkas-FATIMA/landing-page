@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/Logo.jpg'
 function footer2() {
   return (
-    <section className='w-full h-72 bg-black flex '>
+    <section className='w-full h-52 bg-black flex '>
         {/* right part */}
         <div className='w-[50%] h-full flex-col pl-5  items-center '>
             {/* title */}
