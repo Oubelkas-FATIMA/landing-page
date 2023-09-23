@@ -76,13 +76,13 @@ const Hero = () => {
       
     </nav>
 
-            <div className={`absolute inset-0 top-[200px]  max-w-7xl mx-auto flex flex-col items-start`}>
+            <div className={`absolute inset-0 top-[200px]  max-w-7xl mx-auto flex flex-col items-end`}>
                 <div className="grid lg:grid-cols-2 lg:overflow-visible">
                     <div className="lg:w-[130%]  text-center lg:text-left">
                         <h1 className="text-[3rem] md:text-[4rem] leading-tight font-poppins text-white">{home.first_text}</h1>
                         <h3 className="mt-4 text-[1.5rem] font-poppins  text-[#E8B537] font-bold">{home.second_text}</h3>
                         
-                        <button className='text-white  rounded-3xl  w-[13vw] my-20 p-3  border-2 border-white'>
+                        <button className='text-white  rounded-3xl  w-[13vw] my-20 p-3  border-2 border-white sm:w-[9vw]'>
                          learn more
                         </button>
                     </div>

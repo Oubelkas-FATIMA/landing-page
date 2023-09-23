@@ -4,9 +4,12 @@ import React from "react";
 import Jobs from "./components/jobs1";
 import Values from "./components/values";
 import Contact from "./components/contact";
-import Footer from "./components/footer2";
+import Footer from "./components/footer";
 import Problems from "./components/problems";
 import Hero from "./components/Hero";
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 import Features from "./components/features"; 
 import Navbar from "./components/Navbar";
