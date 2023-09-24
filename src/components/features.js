@@ -8,16 +8,20 @@ import {AiFillDashboard} from 'react-icons/ai'
 import {AiFillFrown} from 'react-icons/ai'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FcPieChart } from 'react-icons/fc';
+import { AiOutlineApi } from 'react-icons/ai';
+import { SiApacheairflow } from "react-icons/si";
+import { BsGear } from "react-icons/bs";
+
 
 
 const iconMap = {
-  "Complete automation": <FcAutomatic />,
+  "Complete automation": <BsGear />,
   "Precise parameter control": <AiFillDashboard />,
-  "Cultivation of fruits to maturity": <FcPieChart />,
+  "Cultivation of fruits to maturity": <SiApacheairflow />,
   "Reduced disease risks": <AiFillFrown />,
-  "Remote accessibility": <FcPieChart />,
+  "Remote accessibility": <AiOutlineApi />,
   "Resource optimization": <AiOutlineMonitor />,
+
 };
 
 
@@ -39,7 +43,7 @@ function features() {
                           <span className='text-yellow-500'>
                           {iconMap[feat.title] /* Utilisez l'icône en fonction du titre de la fonction */}
                         </span>
-                        <h1 className='ml-2 text-1xl font-bold text-[#1F571E] hover:text-white '> { feat.title}</h1>   </div>
+                         <h1 className='ml-2 text-1xl font-bold text-[#1F571E] hover:text-white '> { feat.title}</h1>   </div>
                      <p className=' pt-10 flex items-center'> {feat.description} </p>
                  </div>
                        
