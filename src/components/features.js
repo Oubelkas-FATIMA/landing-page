@@ -35,7 +35,11 @@ function features() {
         <div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 md:gap-10 sm:gap-10  px-20 ">     
                     {feature.map((feat) => (
                         <div className='  border-green-800 border-4 rounded-lg hover:bg-[#1F571E] hover:text-white p-10'>
-                      <div className=' flex '> {iconMap[feat.title] /* Use the icon based on the feature title */} <h1 className='ml-2 text-1xl font-bold text-[#1F571E] hover:text-white '> { feat.title}</h1>   </div>
+                          <div className=' flex '> 
+                          <span className='text-yellow-500'>
+                          {iconMap[feat.title] /* Utilisez l'icône en fonction du titre de la fonction */}
+                        </span>
+                        <h1 className='ml-2 text-1xl font-bold text-[#1F571E] hover:text-white '> { feat.title}</h1>   </div>
                      <p className=' pt-10 flex items-center'> {feat.description} </p>
                  </div>
                        
