@@ -36,7 +36,7 @@ function features() {
     </div>
     <p className='pb-6 font-poppins pt-5 text-[#E8B537] font-bold'> Explore BIONIX's exceptional capabilities !</p>
              
-        <div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 md:gap-10 sm:gap-10  px-20 ">     
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 md:gap-10 sm:gap-20  px-20 ">     
                     {feature.map((feat) => (
                         <div className='  border-green-800 border-4 rounded-lg hover:bg-[#1F571E] hover:text-white p-10'>
                           <div className=' flex '> 

@@ -29,11 +29,11 @@ function contact() {
               <div>
                 <div className='flex  '>
                   <div className='p-10'>
-                    <label for="email">mail</label><br/>
+                    <label for="email">Email</label><br/>
                     <input type="email" id="email" name="email" className='border-b-2  hover:border-black' /><br />
                   </div>
                   <div className='p-10'>
-                    <label for="Lastname">telephone</label><br />
+                    <label for="Lastname">Telephone</label><br />
                     <input type="text" id="Lastname" name="Lastname"  className='border-b-2  hover:border-black'/>
                   </div>
                 </div>
@@ -49,9 +49,9 @@ function contact() {
                       />
               </div>
 
-              <button className='text-white  rounded-3xl  bg-[#1F571E] w-[13vw] m-20 p-3 '>
-                    send message
-                  </button>
+              <button className='text-white rounded-3xl bg-[#1F571E] w-40 md:w-96 m-4 p-3 '>
+  Send Message
+</button>
             </div>
       </div>
     

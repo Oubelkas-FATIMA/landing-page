@@ -28,7 +28,10 @@ const Hero = () => {
     return (
         <section id="home" className=" w-full h-auto mx-auto bg-[#1F571E]">
           
-          <img className = 'w-full h-screen object-cover opacity-20' src={heroBackground} alt="/" />
+          {/* <img className = 'w-full h-screen object-cover opacity-20' src={heroBackground} alt="/" /> */}
+          <video autoPlay muted loop className="w-full h-screen object-cover">
+            <source src= 'https://landingvideo.s3.amazonaws.com/backVid1.mp4' type="video/mp4"/>
+          </video>
 
 
           <nav className="w-full flex py-6 justify-between items-center navbar absolute top-0 xl:max-w-[1280px] sm:px-16 px-6">
@@ -74,24 +77,18 @@ const Hero = () => {
         </div>
       </div>
       
-    </nav>
+          </nav>
 
-            <div className={`absolute inset-0 top-[200px]  max-w-7xl mx-auto flex flex-col items-end`}>
+            <div className={`absolute inset-0 top-[300px]  max-w-7xl mx-auto flex flex-col justify-normal `}>
                 <div className="grid lg:grid-cols-2 lg:overflow-visible">
-                    <div className="lg:w-[130%]  text-center lg:text-left">
-                        <h1 className="text-[3rem] md:text-[4rem] leading-tight font-poppins text-white">{home.first_text}</h1>
-                        <h3 className="mt-4 text-[1.5rem] font-poppins  text-[#E8B537] font-bold">{home.second_text}</h3>
+                    <div className="lg:w-[130%]  lg:text-left">
+                    <h3 className="mt-4 text-[3rem] font-poppins  text-white font-bold">{home.second_text}</h3>
+                        <h1 className=" text-[2.5rem]  leading-tight font-poppins text-[#E8B537]">{home.first_text}</h1>
                         
-                        <button className='text-white  rounded-3xl  w-[13vw] my-20 p-3  border-2 border-white sm:w-[9vw]'>
-                         learn more
-                        </button>
                     </div>
-                   
                 </div>
             </div>
-            <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-start'>
-       
-      </div>
+            {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-start'></div> */}
     </section>
     )
 }

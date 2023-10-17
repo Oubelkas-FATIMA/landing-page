@@ -15,8 +15,11 @@ import Features from "./components/features";
 import Navbar from "./components/Navbar";
 
 import  Nous from "./components/nous";
+import Bionixteam from "./components/us";
 
 import styles from "./style";
+
+
 
 import Robot from './assets/vidBackground.mp4'
 
@@ -42,17 +45,21 @@ function App() {
     <div className={`${styles.paddingX} ${styles.flexCenter}  bg-[#f1fff2]`}>
       <div className={`${styles.boxWidth}`}>
       <Problems/>
-      <Nous/>
+      
   
       </div>
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+      <Bionixteam/>
       <Features/>
       <Jobs/>
+      
       </div>
       </div>
+
+      
 
 
 

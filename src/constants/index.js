@@ -34,7 +34,7 @@ export const navLinks = [
 
 
   export const home = {first_text: "Growing More, Using Less",
-    second_text:" Bionix, Your Farm's Reliable Automation Partner",
+    second_text:" Bionix, Your Farm's Reliable Automation Partner !",
   };
 
 

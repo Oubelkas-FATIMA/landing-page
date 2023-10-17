@@ -16,7 +16,7 @@ function Jobs() {
         <section id='what we do'>
             <div  >
             {/* <h1 className=' text-black font-bold text-4xl capitalize mt-10 text-center pt-10'>what we do</h1> */}
-                <div className="flex flex-col lg:grid lg:grid-cols-2 pl-24 gap-3 items-center justify-between py-16">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 pl-24 gap-3 items-center justify-between ">
                     <div className="">
                         <div>
                             <h2 className='text-[#015109] text-3xl font-bold  '>{job.title}</h2>
@@ -29,7 +29,7 @@ function Jobs() {
                             
                                 {job.description}
                         </div>
-                        <div className='pt-4'>
+                        <div className='pt-8'>
                             
                         <button type="button" className={`px-4 py-2 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-full outline-none border-2 border-[#1F571E] text-[#1F571E]`}>
                             Get yours now
